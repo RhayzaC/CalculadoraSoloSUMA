@@ -1,0 +1,23 @@
+primero = input ('Ingrese primer número: ')
+
+try:
+    primero = int(primero)
+except:
+    primero = 'chanchito feliz'
+
+if primero == 'chanchito feliz':
+    print('El valor ingrsado no es un entero')
+    exit()
+
+segundo = input ('Ingrese segundo número: ')
+
+try:
+    segundo = int(segundo)
+except:
+    segundo= 'chanchito feliz'
+
+if segundo == 'chanchito feliz':
+    print('el valor ingresado no es un entero')
+    exit()
+
+print (primero + segundo)
